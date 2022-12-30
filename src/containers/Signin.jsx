@@ -32,17 +32,17 @@ const Signin = () => {
         <>
             <Home />
             <section className="gradient">
-                <section class="popup">
-                    <div class="popup-inner">
+                <section className="popup">
+                    <div className="popup-inner">
                         <span onClick={closeButton}>
                             <a href="/">
                                 {' '}
-                                <img src={CrossX} class="close" />{' '}
+                                <img src={CrossX} className="close" />{' '}
                             </a>
                         </span>
                     </div>
-                    <div class="popup-preview">
-                        <div class="input">
+                    <div className="popup-preview">
+                        <div className="input">
                             <div className="heading-sign-in">
                                 <h2>Log In</h2>
                                 <p> Login to shop for Accessories</p>
@@ -65,11 +65,11 @@ const Signin = () => {
                                 />
                              
                                    
-                                <button class="button" onClick={signInButton}>
+                                <button className="button" onClick={signInButton}>
                                     SIGN IN
                                 </button>
                                 
-                                <p class="bottom">
+                                <p className="bottom">
                                     Not a Member Yet?{' '}
                                     <a href="/signup">
                                         <u>Sign Up</u>

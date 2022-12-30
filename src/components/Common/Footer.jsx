@@ -15,20 +15,20 @@ export default function Footer({ price }) {
     return (
         <footer>
             {key !== null && (
-                <div class="foot">
+                <div className="foot">
                     <h2>Total cost : ${price}</h2>
                     {showCheckoutButton ? (
                         <a href="/cart">
-                            <button class="btn">Check Your Cart</button>
+                            <button className="btn">Check Your Cart</button>
                         </a>
                     ) : (
                         <a href="/Shipping">
-                            <button class="btn">Next Step</button>
+                            <button className="btn">Next Step</button>
                         </a>
                     )}
                 </div>
             )}
-            <div class="refresh">
+            <div className="refresh">
                 <img src={logo2} alt="logo" />
                 <p>
                 Premium Quality mobile accessories wallets glasses at the best and most affordable price.

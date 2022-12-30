@@ -12,20 +12,20 @@ const ThankYou = () => {
     }, []);
     return (
         <div>
-            <div class="box">
+            <div className="box">
                 <p>Thank you for your ordering</p>
             </div>
 
-            <div class="message">
+            <div className="message">
                 <p>
-                    Thank you for your ordering <span class="color">{user.user_name}</span>. We received your request.{' '}
+                    Thank you for your ordering <span className="color">{user.user_name}</span>. We received your request.{' '}
                     <br />
                     <br />
                     Our staff will be contacting with you to tell next steps.
                 </p>
             </div>
 
-            <div class="backhome">
+            <div className="backhome">
                 <a href="">
                     <button onClick={() => dispatch(push('/'))}>Back to Home</button>
                 </a>

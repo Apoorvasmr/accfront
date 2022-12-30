@@ -30,7 +30,7 @@ const CartItem = ({ cart, quantity, cartId }) => {
             <h3>{cart.name}</h3>
             <h6>{quantity}</h6>
             <p>${cart.price}</p>
-            <button class="number">
+            <button className="number">
                 <span id="minus" onClick={clickMinusCart}>
                     －
                 </span>

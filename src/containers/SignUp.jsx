@@ -33,15 +33,15 @@ const SignUp = () => {
         <>
             <Home />
             <section className="gradient">
-            <section class="popup">
-                <div class="popup-inner">
-                    <div class="popup-preview">
+            <section className="popup">
+                <div className="popup-inner">
+                    <div className="popup-preview">
                         <span onClick={closeButton}>
                             <a href="/">
-                                <img src={CrossX} class="close" />{' '}
+                                <img src={CrossX} className="close" />{' '}
                             </a>
                         </span>
-                        <div class="input">
+                        <div className="input">
                             <div className="heading-sign-in">
                                 <h2>Create an account and discover the benefits</h2>
                                 <p> Sign Up to buy Accessories</p>
@@ -49,7 +49,7 @@ const SignUp = () => {
                             <div className="input-feilds">
                                 <input
                                     type="text"
-                                    class="form-control"
+                                    className="form-control"
                                     onChange={inputUserName}
                                     placeholder="Enter User Name"
                                     value={user_name}
@@ -57,7 +57,7 @@ const SignUp = () => {
                                 />
                                 <input
                                     type="email"
-                                    class="form-control"
+                                    className="form-control"
                                     onChange={inputEmail}
                                     placeholder="Enter email"
                                     value={email}
@@ -65,22 +65,22 @@ const SignUp = () => {
                                 />
                                 <input
                                     type="password"
-                                    class="form-control"
+                                    className="form-control"
                                     onChange={inputPassword}
                                     placeholder="Password"
                                     value={password}
                                     required
                                 />
-                                <div class="checkbox">
+                                <div className="checkbox">
                                     <input type="checkbox" required id="terms" name="terms" />
                                     <label for="terms">I agree to the Google Terms of Service and Privacy Policy</label>
                                 </div>
 
 
-                                <button class="button" onClick={signUpButton}>
+                                <button className="button" onClick={signUpButton}>
                                     SIGN UP
                                 </button>
-                                <p class="bottom">
+                                <p className="bottom">
                                     Already a Member?{' '}
                                     <a href="/signin">
                                         <u>Sign In.</u>

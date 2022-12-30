@@ -26,8 +26,8 @@ const Cart = () => {
                 <div className="heading">
                     <h3>Cart Items</h3>
                 </div>
-                <div class="images">
-                    <ul class="menu">
+                <div className="images">
+                    <ul className="menu">
                         {
                             (carts,
                             items &&

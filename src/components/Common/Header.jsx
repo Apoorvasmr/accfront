@@ -25,7 +25,7 @@ export default function Header() {
     return (
         <>
             <header>
-                <div class="logo">
+                <div className="logo">
                     <a href="/">
                         {' '}
                         <img src={logo} alt="logo" />
@@ -37,7 +37,7 @@ export default function Header() {
                             Logout
                         </span>
                     ) : (
-                        <a class="signin" href="Signin">
+                        <a className="signin" href="Signin">
                             <img src={user} alt="user" />
                         </a>
                     )}

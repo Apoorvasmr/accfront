@@ -53,7 +53,7 @@ const Item = ({ item }) => {
                     <p>${item.price}</p>
                 </div>
                 {particularCart && particularCart.quantity > 0 ? (
-                    <div class="added-cart">
+                    <div className="added-cart">
                         <span id="minus" onClick={clickMinusCart}>
                             －
                         </span>

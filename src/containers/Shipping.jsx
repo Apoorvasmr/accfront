@@ -88,25 +88,25 @@ const Shipping = () => {
 
     return (
         <>
-            <div class="box">
+            <div className="box">
                 <p> Order your items </p>
             </div>
 
-            <section class="details">
-                <div class="product-details">
+            <section className="details">
+                <div className="product-details">
                     <h3>Shipment Details</h3>
                     <h4>Please check your items and confirm it</h4>
-                    <div class="box2">
+                    <div className="box2">
                         <table>
                             {carts &&
                                 carts.map(cart => (
                                     <tr>
-                                        <td class="td-item">{cart.item.name}</td>
-                                        <td class="td-quantity">{cart.quantity}</td>
-                                        <td class="td-price">{cart.item.price}</td>
+                                        <td className="td-item">{cart.item.name}</td>
+                                        <td className="td-quantity">{cart.quantity}</td>
+                                        <td className="td-price">{cart.item.price}</td>
                                     </tr>
                                 ))}
-                            <tr class="border">
+                            <tr className="border">
                                 <td id="total-price">Total Price</td>
                                 <td id="item-count">{totalitem}</td>
                                 <td id="subtotal">${subtotal}</td>
@@ -116,8 +116,8 @@ const Shipping = () => {
                 </div>
                 <br />
                 <br />
-                <div class="dispatch">
-                    <div class="form">
+                <div className="dispatch">
+                    <div className="form">
                         <label for="name">Full name</label> <br />
                         <input
                             type="text"
@@ -190,7 +190,7 @@ const Shipping = () => {
                         />
                         <br />
                         <br />
-                        <button type="submit" name="submit" value="SUBMIT" class="submit" onClick={orderButton}>
+                        <button type="submit" name="submit" value="SUBMIT" className="submit" onClick={orderButton}>
                             Submit
                         </button>
                     </div>

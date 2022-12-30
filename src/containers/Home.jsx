@@ -21,7 +21,7 @@ const Home = () => {
 
     return (
         <>
-            <section class="main-image">
+            <section className="main-image">
                 <img src={MainImage} alt="main-image" />
               
             </section>
